@@ -124,7 +124,7 @@ nav a:hover {
 
 
 /* Contact Us Form styles */
-.contact-form h2 {
+/* .contact-form h2 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -147,7 +147,7 @@ nav a:hover {
 .form-group textarea {
     resize: vertical;
     min-height: 150px;
-}
+} */
 
 /* Footer styles */
 footer {
@@ -399,7 +399,7 @@ footer {
           #btn4 {
             background-color: white;
             border: none;
-            
+            color: black;
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
@@ -427,4 +427,96 @@ footer {
 
         #particles-js {
             height: 100vh;
+        }
+
+
+
+
+        
+        .contact-container {
+            display: flex;
+            padding: 20px;
+            /* background-color: #fff; */
+            /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+            max-width: 800px;
+            margin: 0 auto;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .left-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right-section {
+            flex: 1;
+            padding-left: 20px;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-image: url('surya.jpg'); /* Replace with your avatar image */
+            background-size: cover;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+        }
+
+        .contact-info{
+            margin-left: 163px;
+            margin-top: -139px;
+        }
+
+        .contact-info h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        /* Form Styles */
+        .contact-form {
+            padding-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .form-group button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
