@@ -76,12 +76,12 @@ nav a:hover {
 
 /* Landing Banner styles */
 .landing-banner {
-    background-image: url('p7.jpg');
-    background-size: 100%;
+    background-image: url('bannerimage.jpg');
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 100px 0;
-    height: 263px;
-    object-fit: contain;
+    padding: 0;
+    height: auto;
+    min-height: 500px;
 }
 
 .landing-banner h2 {
@@ -425,9 +425,6 @@ footer {
         }
 
 
-        #particles-js {
-            height: 100vh;
-        }
 
 
 
