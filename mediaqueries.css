@@ -93,7 +93,7 @@
 @media screen and (max-width:626px){
     .banner-info{
         margin-left: 0;
-        padding:10px;
+        padding:17px;
         margin-left: -20px;
     }
 }
@@ -116,7 +116,7 @@
 @media screen and (max-width:425px){
     .banner-info h1 {
         font-size: 32px;
-        margin-left: -182px;
+        margin-left: -151px;
     }
 }
 
