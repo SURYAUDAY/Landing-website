@@ -125,6 +125,10 @@
         margin-left: -115px;
         height:100px;
     }
+    .banner-info{
+        margin-left: -17px;
+    }
+
 }
 
 @media screen and (max-width:474px)
