@@ -3,281 +3,275 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/f7a7883fe0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mediaqueries.css">
 </head>
 <body>
-    <!-- Navbar -->
-    <div class="navbar">
-        <div class="flex">
-            <h1 style="font-weight: 800;">Housing</h1>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Features</a></li>
-                    <li><a href="">Developing</a></li>
-                    <li><a href="">Pricing</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Location</a></li>
-                    <li><a href="">Contact</a></li>
+   <!-- navbar -->
+
+   <nav id="nav">
+        <div class="container main-nav flex">
+            <h2 class="company-logo">Housing</h2>
+            <div class="nav-links" id="nav-links">
+                <ul class="flex">
+                    <li><a href="javascript:void(0)" class="hover-link">Home</a></li>
+                    <li><a href="javascript:void(0)" class="hover-link">Features</a></li>
+                    <li><a href="javascript:void(0)" class="hover-link">Developing</a></li>
+                    <li><a href="javascript:void(0)" class="hover-link">Pricing</a></li>
+                    <li><a href="javascript:void(0)" class="hover-link">Gallery</a></li>
+                    <li><a href="javascript:void(0)" class="hover-link">Location</a></li>
+                    <li><a href="javascript:void(0)" class="hover-link">Contact</a></li>
                 </ul>
-            </nav>
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
         </div>
-    </div>
-
-    <!-- Landing Banner -->
-    <header class="landing-banner">
-    
-    </header>
-
-    <div class="banner-info">
-       <br><br> <h1>Greenfield<br>
-        Residence</h1><br>
-
-        <div class="banner-form">
-            <form>
-                <label for="input1">Subscribe to the latest news</label><br><br>
-                <input style="width:310px; height:40px; padding:5px; border-radius:5px;"id="#email" type="email" placeholder="Your email">
-                <button id="arrowButton" type="submit" value="Submit">&rarr;</button>
-            </form><br>
-            <hr><br>
-            <p style="line-height: 180%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Aliquam sit amet lorem lobortis est rutrum ullamcorper.</p><br>
-            <button id="button" type="submit" value="more">More</button>
-
-        </div>
-     </div>
-
+   </nav>
    
-   <!-- Photo Gallery -->
-<section class="photo-gallery">
-    
-    <div class="container" style="margin-left: 220px;">
-        <h2 style="font-size: 50px; margin-left: -280px;">What You'll Get</h2><br><br>
-        <div class="gallery">
-            <div class="gallery-item">
-                <div class="cardd" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
-                    <img src="l1.jpg" alt="Image 1">
-                    <div class="text-block">
-                        <p>Roadside</p>
-                      </div>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="cardd" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
-                    <img src="l2.jpg" alt="Image 1">
-                    <div class="text-block">
-                        <p>Sunset</p>
-                      </div>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="cardd" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
-                    <img src="l1.jpg" alt="Image 1">
-                    <div class="text-block">
-                        <p>Natural</p>
-                      </div>
-                </div>
-         </div>
-    </div><br><br>
-</section><br><br><br><br>
+   <!-- Landing-banner -->
+
+   <div class="container1">
+    <div id="backgroundimage"></div>
+   </div>
 
 
 
-
-<div class="contain">
-    <div class="text">
-        <h1 style="font-size: 50px;">New Living For Your <br>Dreaming</h1><br>
-        <p style="line-height: 170%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget felis sed urna commodo lobortis.</p>
-        <button id="btn4" type="button">Contact Us</button>
-    </div>
-    <div class="image">
-        <img src="what1.jpg" alt="Right Side Image">
-    </div>
-</div><br><br><br><br><br>
+   <!-- Landing form -->
 
 
-<!-- <section class="blurred-section">
-    <div class="text-overlay">
-        
-    </div>
-    <div class="text">
-        <h1>Your Text Goes Here</h1>
-        <p>This is a sample text over a blurred background image.</p>
-    </div>
-</section><br><br><br><br><br> -->
+   <div class="container">
+   <div class="banner-info">
+    <br><br> <h1>Greenfield<br>
+     Residence</h1><br>
 
+     <div class="banner-form">
+         <form>
+             <label for="input1">Subscribe to the latest news</label><br><br>
+             <input style="max-width:250px; height:52px; padding:5px; border-radius:5px;"id="#email" type="email" placeholder="Your email">
+             <button id="arrowButton" type="submit" value="Submit">&rarr;</button>
+         </form><br>
+         <hr><br>
+         <p style="line-height: 180%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet lorem lobortis est rutrum ullamcorper.</p><br>
+         <button id="button" type="submit" value="more">More</button>
 
-<h1 style="font-size: 50px; text-align: center; margin-bottom: 60px;">Developing Process</h1>
-<div class="contain">
-    
-    <div class="image">
-        <img src="what1.jpg" alt="Right Side Image">
-    </div>
-    <div class="text1">
-        <p>- <span style="color:lightslategray; font-weight: 900;">Phase #1</span> <br> <div style="display:inline-block; "><h3 style="display: inline-block;"> &nbsp;&nbsp;Building A</h3> <span style="background-color:rgb(23, 196, 23); color:white; padding:2px;">completed</span></div> <br>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p><br>
-        <p>- <span style="color:lightslategray; font-weight: 900;">Phase #2</span> <br> <div style="display:inline-block; "><h3 style="display: inline-block;"> &nbsp;&nbsp;Building B</h3> <span style="background-color:rgb(23, 196, 23); color:white; padding:2px;">completed</span></div> <br>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p><br>
-        <p>- <span style="color:lightslategray; font-weight: 900;">Phase #3</span> <br> <div style="display:inline-block; "><h3 style="display: inline-block;"> &nbsp;&nbsp;Building C</h3> <span style="background-color:rgba(114, 112, 114, 0.988); color:white; padding:3px;">In Progress</span></div> <br>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p><br>
-    </div>
-    
-
+     </div>
+  </div>
 </div>
 
+   <!-- what you will get -->
 
-<!-- <section class="photo-gallery">
-    <div class="container">
-        <h2 style="font-size: 50px;">Developing Process</h2><br>
-        <div class="gallery">
-            <div class="gallery-item">
-                <div class="cardd">
-                    <img src="p11.jpg" alt="Image 1">
-                </div>
-            </div>
+   <div class="container what-you-will-get">
+    <h1 class="text1">What You'll Get </h1>
+    <div class="flex images">
+    <img class="what-image" src="asset/asset 4.jpeg">
+    <img class="what-image" src="asset/asset 5.jpeg">
+    <img class="what-image" src="asset/asset 6.jpeg">
     </div>
+   </div>
 
-    <div class="verticalflex">
-        <p>- <span style="color:lightslategray; font-weight: 900;">Phase #1</span> <br> <div style="display:inline-block; "><h3 style="display: inline-block;"> &nbsp;&nbsp;Building A</h3> <span style="background-color:rgb(23, 196, 23); color:white; padding:2px;">completed</span></div> <br>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p><br>
-        <p>- <span style="color:lightslategray; font-weight: 900;">Phase #2</span> <br> <div style="display:inline-block; "><h3 style="display: inline-block;"> &nbsp;&nbsp;Building B</h3> <span style="background-color:rgb(23, 196, 23); color:white; padding:2px;">completed</span></div> <br>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p><br>
-        <p>- <span style="color:lightslategray; font-weight: 900;">Phase #3</span> <br> <div style="display:inline-block; "><h3 style="display: inline-block;"> &nbsp;&nbsp;Building C</h3> <span style="background-color:rgba(114, 112, 114, 0.988); color:white; padding:3px;">In Progress</span></div> <br>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p><br>
+   <!-- new living for your dream -->
+
+   <header>
+   <div class="container header-section flex">
+    <div class="header-left">
+        <h1>New Living For Your Dreaming</h1>
+        <p>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p>
+        <button id="button1" type="submit" value="more">Contact Us</button>
     </div>
-</section><br><br><br><br><br><br><br> -->
+    <div class="header-right">
+        <img src="asset/asset 8.jpeg" alt="hero image">
+    </div>
+</div>
+</header>
 
-<!-- Pricing -->
+
+   <!-- blur banner -->
 
 
-<section class="photo-gallery">
-    <h1 style="margin-left: 100px; font-size: 50px;">Pricing</h1><br><br>
-    <div class="container" style="margin-left: 220px; ">
+   <div class="container1" style="margin-top: 150px;">
+    <div id="backgroundimage1" class="imagebox">
+        <div class="layer">
+        </div>
+        <div class=" flex imagebox-text">
+        <i class="fa-solid fa-house" style="color: #95c425; font-size:80px; margin-left: -200px;"></i>
+        <h1 class="imagebox-text1">Cras nisl lacus, tincidunt vitae neque vitae, interdum iaculis tortor</span></h1>
         
-        <div class="gallery">
-            <div class="gallery-item">
-                <div class="cardd" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
-                    <img src="p11.jpg" alt="Image 1">
-                    <div class="card-item">
-                        <div class="box1">
-                            <h2 style="margin: 10px 0px;">Apartment A</h2>
-                            <h1 style="margin-bottom: 20px;">$125,000</h1>
-                        </div>
-                        <div  class="box2">
-                            <p>245m</p>
-                            <p>1 Bathroom</p>
-                            <p>10 m Balcony</p><br>
-                            <button class="btn3" type="button">Contact Agent</button><br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="cardd" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
-                    <img src="p11.jpg" alt="Image 1">
-                    <div class="card-item">
-                        <div class="box11">
-                            <h2 style="margin: 10px 0px;">Apartment B</h2>
-                            <h1 style="margin-bottom: 20px;">$125,000</h1>
-                        </div>
-                        <div class="box22">
-                            <p>245m</p>
-                            <p>1 Bathroom</p>
-                            <p>10 m Balcony</p><br>
-                            <button class="btn2" type="button">Contact Agent</button><br>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="cardd" style="box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);">
-                    <img src="p11.jpg" alt="Image 1">
-                    <div class="card-item">
-                        <div class="box1">
-                            <h2 style="margin: 10px 0px;">Apartment C</h2>
-                            <h1 style="margin-bottom: 20px;">$125,000</h1>
-                        </div>
-                        <div class="box2">
-                            <p>245m</p>
-                            <p>1 Bathroom</p>
-                            <p>10 m Balcony</p><br>
-                            <button class="btn3" type="button">Contact Agent</button><br>
-                        </div>
-                    </div>
-                </div>
-            </div>  
-         </div>
-    </div><br><br>
-</section>
+        </div>
+    </div>
+   </div>
 
 
+   <!-- developing process -->
 
-   <!-- Gallery images -->
+   <header class="developing-header">
+    <h1 class="text1">Developing Process</h1>
+    <div class="container header-section flex">
+     
+     <div class="header-developing-right">
+         <img src="asset/asset 10.jpeg" alt="hero image">
+     </div>
+     <div class="header-developing-left">
+        <p>- <span style="color:lightslategray; font-size: 20px; line-height: 24px; font-weight: 900;">Phase #1</span> <br> <div style="display:inline-block; "><h3 style="display: inline-block; font-size: 24px; line-height: 28.8px;"> &nbsp;&nbsp;Building A</h3> <span style="background-color:rgb(23, 196, 23); color:white; padding:2px;">completed</span></div> <br><br>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p><br>
+        <p>- <span style="color:lightslategray; font-size: 20px; line-height: 24px; font-weight: 900;">Phase #2</span> <br> <div style="display:inline-block; "><h3 style="display: inline-block; font-size: 24px; line-height: 28.8px;"> &nbsp;&nbsp;Building B</h3> <span style="background-color:rgb(23, 196, 23); color:white; padding:2px;">completed</span></div> <br><br>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p><br>
+        <p>- <span style="color:lightslategray; font-size: 20px; line-height: 24px; font-weight: 900;">Phase #3</span> <br> <div style="display:inline-block; "><h3 style="display: inline-block; font-size: 24px; line-height: 28.8px;"> &nbsp;&nbsp;Building C</h3> <span style="background-color:rgba(114, 112, 114, 0.988); color:white; padding:3px;">In Progress</span></div> <br><br>Fusce pretium dui quis est pretium lobortis. Vestibulum eu ex sed nibh condimentum tristique eu finibus lorem. Nullam sed eleifend massa. Morbi nulla turpis, pharetra et</p><br>
+    </div>
+ </div>
+ </header>
 
-   <section class="photo-gallery">
-    <h1 style=" font-size: 50px; margin-left: 100px;">Gallery</h1><br><br>
+   <!-- pricing -->
+
+
+   <section class="features-section">
+    <h1 class="text3">Pricing</h1>
     <div class="container">
-        
-        <div class="gallery">
-            <div class="gallery-item">
-                <div class="cardd">
-                    <img src="l1.jpg" alt="Image 1">
+        <div class="features-area flex">
+            <div class="features-card">
+                <img src="asset/asset 11.jpeg">
+                <div class="card-item">
+                    <div class="box1">
+                        <h2 style="margin: 10px 0px;">Apartment A</h2>
+                        <h1 style="margin-bottom: 20px; font-size:42px;">$125,000</h1>
+                    </div>
+                    <div  class="box2">
+                        <p>245m</p>
+                        <p>1 Bathroom</p>
+                        <p>10 m Balcony</p><br>
+                        <button class="btn3" type="button">Contact Agent</button><br><br>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-item">
-                <div class="cardd">
-                    <img src="l2.jpg" alt="Image 2">
+            <div class="features-card" style="margin-top: -1px;">
+                <img src="asset/asset 11.jpeg">
+                <div class="card-item">
+                    <div class="box11">
+                        <h2 style="margin: 10px 0px;">Apartment B</h2>
+                        <h1 style="margin-bottom: 20px; font-size:42px; color:white;">$125,000</h1>
+                    </div>
+                    <div  class="box22">
+                        <p style="color:white;">245m</p>
+                        <p style="color:white;">1 Bathroom</p>
+                        <p style="color:white;">10 m Balcony</p><br>
+                        <button class="btn2" type="button">Contact Agent</button><br><br>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-item">
-                <div class="cardd">
-                    <img src="l1.jpg" alt="Image 3">
+            <div class="features-card">
+                <img src="asset/asset 11.jpeg">
+                <div class="card-item">
+                    <div class="box1">
+                        <h2 style="margin: 10px 0px;">Apartment C</h2>
+                        <h1 style="margin-bottom: 20px; font-size:42px;">$125,000</h1>
+                    </div>
+                    <div  class="box2">
+                        <p>245m</p>
+                        <p>1 Bathroom</p>
+                        <p>10 m Balcony</p><br>
+                        <button class="btn3" type="button">Contact Agent</button><br><br>
+                    </div>
                 </div>
             </div>
-            <div class="gallery-item">
-                <div class="cardd">
-                    <img src="l2.jpg" alt="Image 3">
-                </div>
-            </div>
-           
-         </div>
-    </div><br><br>
-</section>
+        </div>
+    </div>
+   </section>
 
 
-<!-- Partners -->
+   <!-- Gallery -->
 
-   <!-- Gallery images -->
 
-   <section class="photo-gallery">
+   <div class="container1 gallery">
+    <h1 class="text1">Gallery </h1>
+    <div class="flex images1">
+    <img class="gallery-image" src="asset/asset 4.jpeg">
+    <img class="gallery-image" src="asset/asset 5.jpeg">
+    <img class="gallery-image" src="asset/asset 6.jpeg">
+    <img class="gallery-image" src="asset/asset 6.jpeg">
+    <img class="gallery-image" src="asset/asset 6.jpeg">
+    </div>
+   </div>
+
+   <!-- location -->
+
+
+   <!-- partners -->
+   <div class="companies-section">
+    <h1 class="text1">Partners</h1>
     <div class="container">
-        <h2 style="font-size: 50px;">Partners</h2>
-        <div class="gallery">
-            <div class="gallery-item">
-                <div class="cardd">
-                    <img src="logo1.png" alt="Image 1">
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="cardd">
-                    <img src="logo2.png" alt="Image 2">
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="cardd">
-                    <img src="logo3.png" alt="Image 3">
-                </div>
-            </div>
-            <div class="gallery-item">
-                <div class="cardd">
-                    <img src="logo4.png" style="height:230px; width:230px;" alt="Image 3">
-                </div>
-            </div>
-           
-         </div>
-    </div><br><br>
-</section>
+        <div class="logos flex">
+            <img class="logo" src="assets/asset 3.png">
+            <img class="logo" src="assets/asset 4.png">
+            <img class="logo" src="assets/asset 5.png">
+            <img class="logo" src="assets/asset 6.png">
+            <img class="logo" src="assets/asset 7.png">
+        </div>
+    </div>
+   </div>
+
+   <!-- contact -->
 
 
-    <!--Form -->
-   <!--  <section class="contact-form">
-        <div class="container">
-            <h2 style="font-size: 50px;">Contact Us</h2>
+   <header id="contactus">
+    <h1 class="text1">Contact </h1>
+    <div class="container flex cont" >
+     <div class="header-left1 flex">
+        <div class="header-left-left">
+         <p style="font-weight: bolder; font-size: 24px;">Our Agent</p><br>
+         <div class="avatar"></div>
+        </div>
+        <div class="header-left-right">
+            <p style="font-size: 24px; font-weight: bolder;">Suryauday</p>
+            <p style="font-size:18px; font-weight: bolder;">Phone:</p>
+            <p>(123) 456 789 000</p>
+            <p style="font-size:18px; font-weight: bolder;">E-mail:</p>
+            <p>john.doe@example.com</p>
+            <p style="font-size:18px; font-weight: bolder;">Skype:</p>
+            <p>Surya</p>
+        </div>
+     </div>
+     <div class="header-right">
+        <div class="contact-form" >
+            <h3 style="font-weight: bolder; font-size: 24px;">Contact Form</h3><br>
+            <form>
+                <div class="form-group inline">
+                    <label for="name">Your name:</label><br><br>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                </div>
+                <div class="form-group inline mar">
+                    <label for="email">Your email:</label><br><br>
+                    <input type="email" id="email" name="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your message:</label><br><br>
+                    <textarea id="message" name="message" placeholder="Your message" ></textarea>
+                </div>
+                <div class="form-group btn4" >
+                    <button id="btn4" type="submit">Send a message</button>
+                </div>
+            </form>
+        </div>
+     </div>
+ </div>
+ </header>
+
+   
+   <!-- <div class="container">
+
+
+    <div class="left-section">
+        <h4>Our Agent</h4>
+        <div class="avatar"></div>
+        <div class="contact-info">
+            
+            <h4>Jane Doe</h4>
+            
+            <p><span style="font-weight: bolder;">Phone:</span><br> +1 (123) 456-7890</p><br>
+            <p><span style="font-weight: bolder;">Email:</span><br> contact@example.com</p><br>
+            <p><span style="font-weight: bolder;">Skype:</span><br> John Doe</p>
+        </div>
+    </div>
+    <div class="right-section">
+        <div class="contact-form">
+            <h3>Contact Form</h3>
             <form>
                 <div class="form-group">
                     <label for="name">Name:</label>
@@ -291,62 +285,45 @@
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
                 </div>
-                <button type="submit" class="btn">Send a Message</button>
+                <div class="form-group" style="margin-left: 210px;">
+                    <button id="btn4" type="submit">Your Message</button>
+                </div>
             </form>
         </div>
-    </section> -->
+   </div>
+ -->
+   <!-- footer -->
 
-
-    <h1 style="margin-left: 100px;;">Contact</h1><br><br>
-   <div class="contact-container">
-    
-        <div class="left-section">
-            <h4>Our Agent</h4>
-            <div class="avatar"></div>
-            <div class="contact-info">
-                
-                <h4>Jane Doe</h4>
-                
-                <p><span style="font-weight: bolder;">Phone:</span><br> +1 (123) 456-7890</p><br>
-                <p><span style="font-weight: bolder;">Email:</span><br> contact@example.com</p><br>
-                <p><span style="font-weight: bolder;">Skype:</span><br> John Doe</p>
-            </div>
-        </div>
-        <div class="right-section">
-            <div class="contact-form">
-                <h3>Contact Form</h3>
-                <form>
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" required></textarea>
-                    </div>
-                    <div class="form-group" style="margin-left: 210px;">
-                        <button id="btn4" type="submit">Your Message</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+   <footer>
+    <div class="container">
+        <p>&copy;All Rights reserved 2023</p>
     </div>
+   </footer>
 
 
+   <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("nav");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 
- 
+<script>
+    const toggleButton = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 Housing.com</p>
-        </div>
-    </footer>
+    toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    })
 
-   
+</script>
 </body>
 </html>

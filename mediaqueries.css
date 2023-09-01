@@ -1,0 +1,147 @@
+@media screen and (max-width: 991px) {
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+
+    .cont{
+        flex-direction: column;
+        gap:30px;
+        /* margin-top:800px; */
+    }
+    .header-left1{
+        
+    margin-top: -83px
+    }
+}
+
+@media screen and (max-width: 768px){
+    .features-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .images1{
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-info{
+        overflow: hidden;
+        margin-top:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .what-you-will-get{
+        margin-top: 532px;
+    }
+
+    .header-section{
+        flex-direction: column;
+    }
+
+    .images{
+        
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .what-image{
+        width:80%;
+    }
+
+    .gallery-image{
+        width:80%;
+    }
+   /*  .imagebox-text1{
+        font-size: 20px;
+        text-align: center;
+        margin-left: 100px;
+        line-height: 20px;
+    } */
+    
+}
+
+
+@media screen and (max-width:626px){
+    .banner-info{
+        margin-left: 0;
+        padding:10px;
+    }
+}
+
+@media screen and (max-width:425px)
+{
+    .logos{
+        flex-direction: column;
+        gap:8px;
+    }
+    .header-left h1{
+        font-size: 31px;
+    }
+    .banner-info h1{
+        font-size: 50px;
+    margin-left: -103px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .banner-info h1 {
+        font-size: 32px;
+        margin-left: -182px;
+    }
+}
+
+@media screen and (max-width:325px){
+    .banner-info h1 {
+        font-size: 32px;
+        margin-left: -115px;
+        height:100px;
+    }
+}
+
+@media screen and (max-width:474px)
+{
+    .mar{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:320px)
+{
+    .contact-form {
+        padding-top: 11px;
+        margin-left: 93px;
+    }
+    .btn4{
+        margin-left: 27px;
+       }
+}
+
