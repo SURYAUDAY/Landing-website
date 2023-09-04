@@ -129,6 +129,17 @@
     .banner-info{
         margin-left: -21px;
     }
+.header-right{
+    margin-left: -15px;
+
+}
+.header-left-left{
+    font-size: -22px;
+    margin-left: 35px;
+}
+.fontsize{
+font-size: 14px;
+}
 
 }
 
