@@ -389,7 +389,7 @@ nav{
 
 .features-area{
     gap:20px;
-    flex-wrap:wrap;
+    /* flex-wrap:wrap; */
 }
 
 .text3{
@@ -418,6 +418,7 @@ nav{
     font-family: Poppins, sans-serif;
     color:#212529;
     width:100%;
+    opacity: .8;
 }
 
 .imagebox-text{
@@ -510,7 +511,13 @@ nav{
     }
 
     .form-group input[type="text"],
-    .form-group input[type="email"],
+    .form-group input[type="email"]
+    {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #ccc;
+     /*  border-radius: 5px; */
+  }
     .form-group textarea {
         width: 100%;
         padding: 10px;
@@ -551,8 +558,9 @@ nav{
     }
     .header-left-left{
         text-align: center;
-        flex-direction: column;
-        gap:500px;
+        /* flex-direction: column;
+        gap:500px; */
+        margin-top: -150px;
        
     }
 
@@ -606,9 +614,9 @@ nav{
         margin-left: 15px;
       }
 
-      .btn4{
+    /*   .btn4{
        margin-left: 210px;
-      }
+      } */
 
 
       .container6 {
@@ -622,3 +630,12 @@ nav{
       font-weight: bolder;
       font-size: 24px;
     }
+
+
+    .header-developing-right img {
+      width: 382px;
+      height: 382px;
+  }
+
+
+ 
